@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    max-width: 360px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .language {
+    margin-top: -250px;
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 30px;
+}
+.logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 48px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+  .description {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    margin-top: 0px;
+    font-size: 19px;
+}
+.colorido {
+    background: linear-gradient(90deg, #f75f00, #d6249f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.botao {
+    margin-top: 30px;
+    background-color: #007dd1;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.conta {
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;
+} 
+.conta a {
+    color: #007dd1;
+    text-decoration: none;
+}
+.meta {
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 15px;
+}
+.meta span {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+  
